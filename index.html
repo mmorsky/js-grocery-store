@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <script src="bower_components/jquery/dist/jquery.js"></script>
+         <script src="src/prices.js"></script>
+         <script src="src/checkout.js"></script>
+         <script src="src/items.js"></script>
+         <script src="src/store.js"></script>
+
+         <title>Grocery Store</title>
+         <style>
+            #food {
+                width: 150px;
+                height: 150px;
+            }
+            #sum-value {
+                font-size: 16pt;
+            }
+         </style>
+    </head>
+    <body>
+    <h1>Grocery Store - Welcome!</h1>
+    <button id="banana"><image id="food" src="images/bananas-freeimages.jpg"/><br>Banana<br></button>
+    <button id="tomato"><image  id="food" src="images/tomato-freeimages.jpg"/><br>Tomato<br></button>
+    <button id="apple"><image  id="food" src="images/apple-freeimages.jpg"/><br>Apple<br></button>
+    <br>
+    <br>
+    <button id="milk"><image  id="food" src="images/milk-freeimages.jpg"/><br>Milk<br></button>
+    <button id="coffee"><image id="food"  src="images/coffee-freeimages.jpg"/><br>Coffee<br></button>
+    <button id="juice"><image id="food"  src="images/juice-freeimages.jpg"/><br>Juice<br></button>
+    <br>
+    <br>
+    <h2 id="total-sum">Total sum:</h2>
+    <div id="sum-value"></div>
+    <br>
+    <br>
+    <button id="checkout">Check out!</button>
+    </body>
+</html>
